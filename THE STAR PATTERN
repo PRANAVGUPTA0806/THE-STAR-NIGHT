@@ -1,4 +1,4 @@
-def pypart(n):
+def pattern(n):
     myList = []
     for i in range(1,n+1):
         myList.append("*"*i)
@@ -6,4 +6,4 @@ def pypart(n):
  
 # Driver Code
 n = 5
-pypart(n)
+pattern(n)
